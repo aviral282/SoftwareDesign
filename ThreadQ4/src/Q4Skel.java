@@ -50,8 +50,8 @@ class Counter  {
         f1.setSize(192,150);  //f1.setResizable(false);
         content.add(l1)	;content.add(l2);
                           
-        dcu=new    DisplayCountUp(l1);
-    	dcd=new    DisplayCountDown(l2);f1.setVisible(true);
+        dcu=new  DisplayCountUp(l1);
+    	dcd=new  DisplayCountDown(l2);f1.setVisible(true);
         dcu.start();
         dcd.start();
         
